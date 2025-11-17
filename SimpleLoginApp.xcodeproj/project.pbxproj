@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8F0526E62E26488000BCB829 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0526E52E26485300BCB829 /* LoginViewController.swift */; };
+		8F0526E82E264B0D00BCB829 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0526E72E264AF000BCB829 /* WelcomeViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8F0526CD2E26421E00BCB829 /* SimpleLoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F0526E52E26485300BCB829 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8F0526E72E264AF000BCB829 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +52,8 @@
 		8F0526C42E26421E00BCB829 = {
 			isa = PBXGroup;
 			children = (
+				8F0526E72E264AF000BCB829 /* WelcomeViewController.swift */,
+				8F0526E52E26485300BCB829 /* LoginViewController.swift */,
 				8F0526CF2E26421E00BCB829 /* SimpleLoginApp */,
 				8F0526CE2E26421E00BCB829 /* Products */,
 			);
@@ -132,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F0526E62E26488000BCB829 /* LoginViewController.swift in Sources */,
+				8F0526E82E264B0D00BCB829 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
