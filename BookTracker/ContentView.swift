@@ -2,23 +2,13 @@
 //  ContentView.swift
 //  BookTracker
 //
-//  Created by Lubelihle Ndlovu on 2025/06/25.
+//  Created by Lubelihle Ndlovu on 2025/06/01.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            BooksView()
         }
-        .padding()
-    }
-}
-
-#Preview {
-    ContentView()
 }
